@@ -1,0 +1,370 @@
+//ext install kokororin.vscode-phpfmt
+{
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "Source Code Pro",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 14,
+    "files.autoSave": "afterDelay",
+    "files.eol": "\n",
+    "php.executablePath": "C:/wamp64/bin/php/php8.2.18/php.exe",
+    "php.suggest.basic": false,
+    "php-docblocker.author": {
+        "name": "Sayedul Sayem",
+    },
+    "php-docblocker.classTemplate": {
+        "author": {
+            "gapBefore": true,
+            "content": "@author ${###:Sayedul Sayem}"
+        },
+        "message": {
+            "gapAfter": true
+        },
+        "param": {
+            "gapBefore": true
+        },
+        "since": {
+            "content": "@since 1.0.0"
+        }
+    },
+    "php-docblocker.functionTemplate": {
+        "message": {
+            "gapAfter": true
+        },
+        "param": {
+            "gapBefore": true,
+        },
+        "return": {
+            "gapBefore": true,
+        },
+        "since": {
+            "content": "@since 1.0.0"
+        }
+    },
+    "phpfmt.php_bin": "C:/wamp64/bin/php/php8.2.18/php.exe",
+    "phpfmt.psr2": false,
+    "phpfmt.indent_with_space": 4,
+    "phpfmt.enable_auto_align": true,
+    "phpfmt.passes": [
+        "AlignConstVisibilityEquals",
+        "AlignDoubleArrow",
+        "AlignComments",
+        "AlignDoubleSlashComments",
+        "AlignEquals",
+        "AlignGroupDoubleArrow",
+        "AlignPHPCode",
+        "IndentTernaryConditions",
+        "NewLineBeforeReturn",
+        "OnlyOrderUseClauses",
+        "PrettyPrintDocBlocks",
+        "PSR2EmptyFunction",
+        "PSR2KeywordsLowerCase",
+        "PSR2LnAfterNamespace",
+        "PSR2ModifierVisibilityStaticOrder",
+        "PSR2SingleEmptyLineAndStripClosingTag",
+        "ReindentSwitchBlocks",
+        "ReindentEnumBlocks",
+        "RemoveIncludeParentheses",
+        "RemoveSemicolonAfterCurly",
+        "ReplaceBooleanAndOr",
+        "ReplaceIsNull",
+        "ShortArray",
+        "SortUseNameSpace",
+        "SpaceBetweenMethods",
+        "StripExtraCommaInArray",
+        "WrongConstructorName",
+        "SpaceAroundParentheses",
+    ],
+    "phpfmt.exclude": [
+        "ReindentComments",
+        "StripNewlineWithinClassBody"
+    ],
+    "[php]": {
+        "editor.defaultFormatter": "kokororin.vscode-phpfmt",
+        "editor.formatOnSave": false
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "liveSassCompile.settings.generateMap": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "terminal.integrated.ignoreBracketedPasteMode": true,
+    "intelephense.format.braces": "k&r",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.maxComputationTime": 0,
+    "editor.maxTokenizationLineLength": 2e+24,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "git.mergeEditor": false,
+    "remote.SSH.remotePlatform": {
+        "server.sayedulsayem.com": "linux"
+    },
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.language.colorizedBracketPairs": null,
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground1": "#fac863",
+        "editorBracketHighlight.foreground2": "#f99157",
+        "editorBracketHighlight.foreground3": "#5bb3b3",
+        "editorBracketHighlight.foreground4": "#ec5f67",
+        "editorBracketHighlight.foreground5": "#bb80b3",
+        "editorBracketHighlight.foreground6": "#98C379",
+    },
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
+    "indentRainbow.colors": [
+        "#fac863",
+        "#f99157",
+        "#5bb3b3",
+        "#ec5f67",
+        "#bb80b3",
+        "#98C379",
+    ],
+    "git.defaultBranchName": "master",
+    "window.zoomLevel": 1,
+    "cSpell.userWords": [
+        "Sayedul",
+        "sayedulsayem",
+        "Sayem"
+    ],
+}
+Write user defined code snippets in vs code
+Open visual studio code
+
+Goto File > Preferences > User Snippets
+
+It will ask to edit existing one or create a new one.
+
+If you want to create new one then create one and save it with a name.
+
+Below are code example of create user snippets code
+
+{
+	"php concatenate echo": {
+		"scope": "html,php,javascript",
+		"prefix": "phpe",
+		"body": [
+			"<?php echo $1; ?>",
+		],
+		"description": "php block with echo"
+	},
+	"php concatenate": {
+		"scope": "html,php,javascript",
+		"prefix": "php",
+		"body": [
+			"<?php $1 ?>",
+		],
+		"description": "php block"
+	},
+	"translatate without echo php": {
+		"scope": "html,php",
+		"prefix": "esc_:php",
+		"body": [
+			"<?php esc_html__('$1', 'plugin_domain'); ?>",
+		],
+		"description": "translatate without echo"
+	},
+	"translatate without echo js": {
+		"scope": "html,template,javascript,vue,react",
+		"prefix": "esc_:js",
+		"body": [
+			"__('$1', 'plugin_domain')",
+		],
+		"description": "translatate without echo"
+	},
+	"translatate with echo php": {
+		"scope": "html,php",
+		"prefix": "esce:php",
+		"body": [
+			"<?php esc_html_e('$1', 'plugin_domain'); ?>",
+		],
+		"description": "translatate with echo"
+	},
+	"translatate attr without echo php": {
+		"scope": "html,php",
+		"prefix": "escattr_:php",
+		"body": [
+			"<?php esc_attr__('$1', 'plugin_domain'); ?>",
+		],
+		"description": "translatate attr without echo"
+	},
+	"translatate attr with echo php": {
+		"scope": "html,php",
+		"prefix": "escattre:php",
+		"body": [
+			"<?php esc_attr_e('$1', 'plugin_domain'); ?>",
+		],
+		"description": "translatate attr with echo"
+	},
+	"translatate without echo": {
+		"scope": "html,php",
+		"prefix": "esc_",
+		"body": [
+			"esc_html__('$1', 'plugin_domain')",
+		],
+		"description": "translatate without echo"
+	},
+	"translatate with echo": {
+		"scope": "html,php",
+		"prefix": "esce",
+		"body": [
+			"esc_html_e('$1', 'plugin_domain')",
+		],
+		"description": "translatate with echo"
+	},
+	"pretty print": {
+		"scope": "php",
+		"prefix": "dd",
+		"body": [
+			"echo '<pre>';",
+			"print_r($1);",
+			"echo '</pre>';",
+		],
+		"description": "pretty print"
+	},
+	"error on": {
+		"scope": "php",
+		"prefix": "eall",
+		"body": [
+			"ini_set( 'display_errors', 1 );",
+			"ini_set( 'error_reporting', -1 );",
+			"ini_set( 'error_reporting', E_ALL );",
+			"define( 'WP_DEBUG', true );",
+			"define( 'WP_DEBUG_LOG', true );",
+			"define( 'WP_DEBUG_DISPLAY', true );$1",
+		],
+		"description": "error on"
+	},
+	"error log": {
+		"scope": "php",
+		"prefix": "el",
+		"body": [
+			"error_log('=======================');",
+			"error_log(print_r($1, true));",
+			"error_log('=======================');",
+		],
+		"description": "error log"
+	},
+	"acf get field": {
+		"scope": "html,php",
+		"prefix": "acff",
+		"body": [
+			"<?php echo get_field('$1title'); ?>",
+		],
+		"description": "acf get field"
+	},
+	"acf nested repeater": {
+		"scope": "html,php",
+		"prefix": "acfnr",
+		"body": [
+			"<?php if( have_rows('$1') ): ?>",
+			"\t<?php while( have_rows('$1') ) : the_row(); ?>\n",
+			"\t\t<?php echo get_sub_field('title'); ?>\n\n",
+			"\t\t<?php if( have_rows('child') ): ?>",
+			"\t\t\t<?php while( have_rows('child') ) : the_row(); ?>\n",
+			"\t\t\t\t<?php echo get_sub_field('title'); ?>\n",
+			"\t\t\t<?php endwhile; ?>",
+			"\t\t<?php endif; ?>",
+			"\t<?php endwhile; ?>",
+			"<?php endif; ?>",
+		],
+		"description": "acf nested repeater"
+	},
+	"acf repeater": {
+		"scope": "html,php",
+		"prefix": "acfr",
+		"body": [
+			"<?php if( have_rows('$1') ): ?>",
+			"\t<?php while( have_rows('$1') ) : the_row(); ?>\n",
+			"\t\t<?php echo get_sub_field('title'); ?>\n\n",
+			"\t<?php endwhile; ?>",
+			"<?php endif; ?>",
+		],
+		"description": "acf repeater"
+	},
+	"acf image": {
+		"scope": "html,php",
+		"prefix": "acfi",
+		"body": [
+			"<?php $1image = get_field('image'); ?>",
+			"<?php if ($1image) : ?>",
+			"\t<img src=\"<?php echo $1image['url']; ?>\" alt=\"<?php echo $1image['alt']; ?>\">",
+			"<?php endif; ?>",
+		],
+		"description": "acf image"
+	},
+	"acf image sizes": {
+		"scope": "html,php",
+		"prefix": "acfis",
+		"body": [
+			"<?php $1image = get_field('image'); ?>",
+			"<?php if ($1image) : ?>",
+			"\t<img src=\"<?php echo $1image['sizes']['thumbnail']; ?>\" alt=\"<?php echo $1image['alt']; ?>\">",
+			"<?php endif; ?>",
+		],
+		"description": "acf image sizes"
+	},
+	"vue template skull": {
+		"scope": "html,vue,javascript",
+		"prefix": "templateskull",
+		"body": [
+			"<script setup>",
+			"</script>",
+			"<template>",
+			"$1",
+			"</template>",
+			"<style scoped lang='scss'>",
+			"</style>",
+		],
+		"description": "vue template skull"
+	},
+}
+@sazzadcse
+Comment
+ 
+Leave a comment
+ 
+Footer
+© 2024 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+
